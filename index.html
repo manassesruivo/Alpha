@@ -38,7 +38,7 @@
       color: #00ffff;
     }
     header {
-      background: url("https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/Campanha%20de%20Natal.jpg") center/cover no-repeat;
+      background: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
       color: white;
       text-align: center;
       padding: 100px 20px 80px;
@@ -61,9 +61,12 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     }
     .section img {
-      width: 100%;
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 30px auto;
       border-radius: 10px;
-      margin: 15px 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
     a {
       color: #007bff;
@@ -114,8 +117,16 @@
 
   <div id="projetos" class="section">
     <h2>Projetos em Destaque</h2>
-    <img src="https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/Campanha%20de%20Natal.jpg" alt="Campanha de Natal" />
-    <img src="https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/Tista%20de%20Deda%2055.jpg" alt="Tista de Deda 55" />
+
+    <!-- PROJETO 1 -->
+    <div style="max-width: 1080px; margin: 0 auto;">
+      <img src="https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/campanha-de-natal.jpg" alt="Campanha de Natal" />
+    </div>
+
+    <!-- PROJETO 2 -->
+    <div style="max-width: 1080px; margin: 0 auto;">
+      <img src="https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/campanha-eleitoral-tista-de-deda.jpg" alt="Campanha Eleitoral Tista de Deda" />
+    </div>
   </div>
 
   <div id="contato" class="section">
@@ -139,4 +150,3 @@
   </script>
 </body>
 </html>
-
