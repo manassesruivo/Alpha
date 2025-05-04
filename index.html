@@ -1,115 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Manassés Ruivo - AlphaDesign</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        * { box-sizing: border-box; scroll-behavior: smooth; }
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #ffffff, #f0f0f0);
-            margin: 0;
-            padding-top: 60px;
-            color: #333;
-        }
-        nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background: #111;
-            color: white;
-            padding: 15px 0;
-            text-align: center;
-            z-index: 999;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 20px;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-        nav a:hover { color: #00ffff; }
-
-        header {
-            background: #222;
-            color: white;
-            padding: 60px 20px 40px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-        h2 {
-            font-size: 1.6em;
-            margin-bottom: 10px;
-        }
-        .section {
-            background: white;
-            padding: 30px;
-            margin: 30px auto;
-            max-width: 900px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-        }
-        .section img {
-            width: 100%;
-            border-radius: 10px;
-            margin: 15px 0;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover { text-decoration: underline; }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #111;
-            color: white;
-            margin-top: 60px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Manassés Ruivo - AlphaDesign</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: "Inter", sans-serif;
+      margin: 0;
+      padding-top: 60px;
+      background: #f4f4f4;
+      color: #333;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #111;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      z-index: 999;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00ffff;
+    }
+    header {
+      background: url("https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/Campanha%20de%20Natal.jpg") center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px 80px;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    header p {
+      font-size: 1.2em;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    }
+    .section {
+      background: white;
+      padding: 30px;
+      margin: 30px auto;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+    .section img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: white;
+      margin-top: 60px;
+    }
+    .social-icons {
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 0.95em;
+    }
+    .social-icons a:hover {
+      color: #00ffff;
+    }
+  </style>
 </head>
 <body>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
 
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#contato">Contato</a>
-    </nav>
+  <header>
+    <h1>Manassés Ruivo</h1>
+    <p>Designer Gráfico | Fundador da <strong>AlphaDesign</strong></p>
+  </header>
 
-    <header>
-        <h1>Manassés Ruivo</h1>
-        <p>Designer Gráfico | Fundador da <strong>AlphaDesign</strong></p>
-    </header>
+  <div id="sobre" class="section">
+    <h2>Sobre Mim</h2>
+    <p>
+      Sou um criador visual que transforma ideias em identidade. Trabalho com design gráfico, campanhas de marketing, identidade visual e muito mais. Minha missão é conectar marcas ao seu público com impacto, beleza e estratégia.
+    </p>
+  </div>
 
-    <div id="sobre" class="section">
-        <h2>Sobre Mim</h2>
-        <p>Sou um criador visual que transforma ideias em identidade. Trabalho com design gráfico, campanhas de marketing, identidade visual e muito mais. Minha missão é conectar marcas ao seu público com impacto, beleza e estratégia.</p>
+  <div id="projetos" class="section">
+    <h2>Projetos em Destaque</h2>
+    <img src="https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/Campanha%20de%20Natal.jpg" alt="Campanha de Natal" />
+    <img src="https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/Tista%20de%20Deda%2055.jpg" alt="Tista de Deda 55" />
+  </div>
+
+  <div id="contato" class="section">
+    <h2>Contato</h2>
+    <p>
+      Entre em contato direto pelo <a href="https://wa.me/5571983584539" target="_blank">WhatsApp</a> ou acompanhe meu trabalho nas redes sociais.
+    </p>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="ano"></span> Manassés Ruivo | Todos os direitos reservados</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/manassesruivo/" target="_blank">Instagram Pessoal</a>
+      <a href="https://www.instagram.com/alphadesigm/" target="_blank">Instagram Alpha</a>
+      <a href="https://www.behance.net/manassesruivo" target="_blank">Behance</a>
     </div>
+  </footer>
 
-    <div id="projetos" class="section">
-        <h2>Projetos em Destaque</h2>
-        <img src="https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/Campanha%20de%20Natal.jpg" alt="Campanha de Natal">
-        <img src="https://raw.githubusercontent.com/manassesruivo/Alfa/main/projetos/Tista%20de%20Deda%2055.jpg" alt="Tista de Deda 55">
-    </div>
-
-    <div id="contato" class="section">
-        <h2>Contato</h2>
-        <p>Entre em contato direto pelo <a href="https://wa.me/5571983584539" target="_blank">WhatsApp</a> ou acompanhe meu trabalho nas redes sociais.</p>
-    </div>
-
-    <footer>
-        &copy; <span id="ano"></span> Manassés Ruivo | Todos os direitos reservados
-    </footer>
-
-    <script>
-        document.getElementById("ano").textContent = new Date().getFullYear();
-    </script>
+  <script>
+    document.getElementById("ano").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+
